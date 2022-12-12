@@ -1,0 +1,154 @@
+@font-face{
+    font-family: RubikMonoOne-Regular;
+    src: url(../Currículum/Fonts/RubikMonoOne-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: SecularOne ;
+    src: url(../Currículum/Fonts/SecularOne-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: Ubuntu-Bold ;
+    src: url(../Currículum/Fonts/Ubuntu-Bold.ttf) format('truetype');
+}
+
+
+
+
+
+body{
+    text-align: justify;
+    font-family: sans-serif;
+    width: auto;
+    margin: auto;
+    background: gray;
+    font-family: Verdana;
+    display: flex;
+    justify-content: center;
+
+    
+}
+#Contenedor{
+    display: flex;
+  justify-content: space-around;
+}
+
+
+
+#Imágen{
+    width: 370px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgba(8, 91, 112, 0.295);
+     align-items: flex-start;   
+}
+
+.cuerpo h2{
+    font-size: px;
+}  
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin: 50px 50px;
+}
+span img{
+    width: 270px;
+    margin: 0px -5px 0px -10px;
+}
+.LíneaBlanca{
+    width: 270px;
+    height: 3px;
+    border-color: white;
+    background-color: white;
+    margin: -10px 0px 0px 40px;
+}
+.cuerpo{
+    text-align: left;
+    display: flex;
+    text-align: start;
+    margin: -20px 0px 60px 50px;
+    color: white;
+    
+    flex-direction: column; 
+   
+}
+.Logos{
+    display: flex;
+    margin: 0px 0px 4px 0px;
+    
+    width: 250px;
+}
+.Logos span{
+    padding: 0px 18px 0px 0px;
+    margin: 0px 0px 0px -5px;
+}
+#Imágen h2{
+    font-size: 18px;
+    margin: 28px 0px 15px -10px;
+}
+#Imágen li{
+    font-size: 15px;
+    margin: 0px 0px 0px -10px;
+}
+
+
+
+
+
+
+
+#Texto{
+    width: 600px;
+    height: 1300px;
+    display: flex;
+    background-color: white;
+    
+    flex-direction: column;
+    align-items: flex-start;
+     
+    padding: 5px 40px 5px  25px;
+}
+
+.LíneaNegra{
+    width: 569px;
+    height: 2px;
+    border-color: black;
+    background-color: black;
+    margin: 40px 0px 0px 0px;
+}
+.LMG{
+    height: 8px;
+    width: 560px;
+    border-color: black;
+    background-color: black;
+}
+
+.a1{
+    margin: 40px 0px 0px 0px;
+}
+#Texto h1{
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    color:rgba(30, 59, 66, 0.651)
+}
+#Texto p{
+    margin: 10px 0px 30px 0px;
+   
+}
+#Texto h2{
+    margin: 4px 0px 12px 0px;
+    font-size: 22px;
+}
+
+article h4{
+    margin: 10px 0px 0px 0px;
+}
+.Par{
+    display: flex;
+  justify-content: space-between;
+}
+.Ultimo{
+    display: flex;
+}
