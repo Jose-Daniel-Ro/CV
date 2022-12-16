@@ -197,11 +197,17 @@ article h4{
 
 /*--Dispositivo sm*/
 @media screen and (max-width:575px){
-   
+   body{
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    padding-top: 90px;
+   }
    #Contenedor{
     width: 75%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    margin: 0xp 0px 0px 0px;
    
    }
    
@@ -275,7 +281,7 @@ article h4{
 
     /*Parte Blanca*/
     #Texto{
-        width: 37%;
+        width: 55%;
         font-size: 50%;
         height: 480px;  
     }
