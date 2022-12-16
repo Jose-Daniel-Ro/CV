@@ -29,7 +29,7 @@ body{
 }
 #Contenedor{
     display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 
@@ -74,6 +74,16 @@ span img{
     flex-direction: column; 
    
 }
+.cuerpo1{
+    text-align: left;
+    display: flex;
+    text-align: start;
+    margin: -20px 0px 60px 50px;
+    color: white;
+    
+    flex-direction: column; 
+   
+}
 .Logos{
     display: flex;
     margin: 0px 0px 4px 0px;
@@ -88,9 +98,9 @@ span img{
     font-size: 18px;
     margin: 28px 0px 15px -10px;
 }
-#Imágen li{
+#Imágen ul{
     font-size: 15px;
-    margin: 0px 0px 0px -10px;
+    margin: 0px 0px 0px -30px;
 }
 
 
@@ -112,6 +122,13 @@ span img{
 }
 
 .LíneaNegra{
+    width: 569px;
+    height: 2px;
+    border-color: black;
+    background-color: black;
+    margin: 40px 0px 0px 0px;
+}
+.LíneaNegra2{
     width: 569px;
     height: 2px;
     border-color: black;
@@ -151,4 +168,159 @@ article h4{
 }
 .Ultimo{
     display: flex;
+}
+
+/*--Media Queries*/
+
+
+
+/*--Dispositivo xl*/
+@media screen and (max-width:1199px){}
+
+
+/*--Dispositivo lg*/
+@media screen and (max-width:991px){
+
+
+}
+
+/*--Dispositivo md*/
+@media screen and (max-width:767px){
+    #Imágen, #Imágen img, .LíneaBlanca , .Logos {
+        width: 75%;
+        font-size: 75%;
+    }
+
+
+
+}
+
+/*--Dispositivo sm*/
+@media screen and (max-width:575px){
+   
+   #Contenedor{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+   
+   }
+   
+   
+    /*Parte gris*/
+    
+
+    #Imágen{
+        width: 130px;
+        height: 489.5px;
+        margin: 0px 0px 0px 65px;
+        
+    }
+    .LíneaBlanca {
+     width: 100px;
+     height: 1px;
+     margin: 0px 0px 0px 15px;
+     
+        
+    }
+
+    #Imágen .Logos {
+        width: 50%;
+        font-size: 50%;
+        height: 50%;
+        margin: 0px 0px 3px -5px;
+        width: 0px;
+    }
+
+    #Imágen span img{
+        width: 90px;
+        margin: -30px 0px -30px -28px;
+        
+    }
+    #Imágen .cuerpo{
+        margin: 0px 0px 30px 25px;
+        font-size: 50%;
+        
+    }
+    #Imágen .cuerpo h2 {
+        font-size: 60%;
+        margin-top: -10px;
+        padding: 0px 0px 0px -60px;
+        margin-top: 2px;
+    }
+    #Imágen .cuerpo ul {
+        font-size: 50%;
+        margin: -5px 0px -20px -38px;
+    }
+    #Imágen .cuerpo1{
+        margin: 0px 0px 15px 25px;
+    }
+    
+    #Imágen .cuerpo1 h2 {
+        font-size: 60%;
+        margin-top: -10px;
+        padding: 0px 0px 0px -60px;
+        margin-top: 2px;
+    }
+    #Imágen .cuerpo1 ul {
+        font-size: 50%;
+        margin: -5px 0px -20px -38px;
+    }
+
+
+
+
+
+
+
+
+    /*Parte Blanca*/
+    #Texto{
+        width: 37%;
+        font-size: 50%;
+        height: 480px;  
+    }
+    #Texto article{
+        width: auto;
+        font-size: 50%;
+        height: 50%;
+        margin: 0px 0px 5px 0px;
+        
+    }
+    #Texto .a1{
+        width: 50%;
+        font-size: 50%;    
+    }
+
+    #Texto h1{
+        font-size: 140%;
+        margin: 2px 0px 6px 0px;
+    }
+    #Texto h2{
+        font-size: 50%;
+        margin: 8px 0px 6px 0px;  
+    }
+    .LíneaNegra{
+        margin: -95px 0px 0px 0px;
+        height: 1px;
+        width: 170px;
+    }
+    .LMG{
+        height: 3px;
+        margin-bottom: -25px;
+        width: auto;
+    }
+    #Texto p{
+        margin: 5px 0px 15px 0px;
+    }
+    .LíneaNegra2{
+        height: 1px;
+        width: 50%;
+        width: 170px;
+        margin-top: 30px;
+    }
+    .cosas{
+       padding: 0px 0px 0px 0px;
+        margin-top: -10px;
+    }
+ 
 }
